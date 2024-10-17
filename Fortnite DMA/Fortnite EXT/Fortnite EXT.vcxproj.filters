@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Overlay">
+      <UniqueIdentifier>{6f0d5d8c-d8c4-4e14-9c4f-2a6cca22b907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Overlay\ImGui">
+      <UniqueIdentifier>{85cfea1a-182e-44ad-80e1-c23cefbf0fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Overlay\Renderer">
+      <UniqueIdentifier>{491a9952-3a65-4d00-8213-61cb90c72795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay">
+      <UniqueIdentifier>{f3f5a53b-a96e-43ff-ac9f-45d337cd2b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\ImGui">
+      <UniqueIdentifier>{29e436d2-af98-40db-ba9f-78689078ca13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\Renderer">
+      <UniqueIdentifier>{6ca71cc7-da62-4740-aee0-58f000167fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{7587373d-f6c9-4951-bfb0-47f451a7d0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{634c7b14-06b3-43d6-a4dc-9a395f06469d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{435cd1d4-7fd1-4361-a223-6d07043cc812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{76095f02-07c7-4504-86b5-cacde658abde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EntityLoop">
+      <UniqueIdentifier>{ada4b797-62d3-4ecd-bfe6-f004b864e651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EntityLoop">
+      <UniqueIdentifier>{9a3fe4af-9f1f-496d-ab6a-e346151a3cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EntityLoop\Utils">
+      <UniqueIdentifier>{225a0a5c-d9a1-4f98-a819-a8251ad02510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{2f03d092-039f-409a-8cc9-d1607a2f5823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{6afe7dea-d564-4f3d-a0c1-9129ba993efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Ntdll">
+      <UniqueIdentifier>{31c97ccf-4c8c-43fb-a5e0-8ed3f3c2d713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Librarys">
+      <UniqueIdentifier>{194b5fe9-bc7f-4fc3-ab06-c6b84b5f8d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Librarys\DirectX">
+      <UniqueIdentifier>{1c3cae2e-6019-4bd0-85d2-f3202af53f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Librarys\vmmdll">
+      <UniqueIdentifier>{f73964fc-3b60-4808-9209-880c1810db31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Librarys\leechcore">
+      <UniqueIdentifier>{b029adf1-492a-4bcf-a92c-3e2627910a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cache">
+      <UniqueIdentifier>{1c572a27-5617-4afd-b886-8bea4a981d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cache">
+      <UniqueIdentifier>{11fa3424-1b37-4973-8905-3287f6457d87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Overlay.cpp">
+      <Filter>Source Files\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Renderer\Renderer.cpp">
+      <Filter>Source Files\Overlay\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui.cpp">
+      <Filter>Source Files\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_demo.cpp">
+      <Filter>Source Files\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_draw.cpp">
+      <Filter>Source Files\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_impl_dx9.cpp">
+      <Filter>Source Files\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_impl_win32.cpp">
+      <Filter>Source Files\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_tables.cpp">
+      <Filter>Source Files\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\Config.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityLoop\EntityLoop.cpp">
+      <Filter>Source Files\EntityLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\InputManager.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Memory.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Registry.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Cache\Cache.cpp">
+      <Filter>Source Files\Cache</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="General.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imconfig.h">
+      <Filter>Header Files\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui.h">
+      <Filter>Header Files\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui_impl_dx9.h">
+      <Filter>Header Files\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui_impl_win32.h">
+      <Filter>Header Files\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui_internal.h">
+      <Filter>Header Files\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imstb_rectpack.h">
+      <Filter>Header Files\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imstb_textedit.h">
+      <Filter>Header Files\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imstb_truetype.h">
+      <Filter>Header Files\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Renderer\Renderer.h">
+      <Filter>Header Files\Overlay\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Overlay.h">
+      <Filter>Header Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Structs.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\Config.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityLoop\EntityLoop.h">
+      <Filter>Header Files\EntityLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityLoop\Utils\Matrix.h">
+      <Filter>Header Files\EntityLoop\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\InputManager.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Memory.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Registry.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Ntdll\structs.h">
+      <Filter>Resource Files\Ntdll</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\DirectX\d3dx9.h">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\DirectX\d3dx9anim.h">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\DirectX\d3dx9core.h">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\DirectX\d3dx9effect.h">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\DirectX\d3dx9math.h">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\DirectX\d3dx9mesh.h">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\DirectX\d3dx9shader.h">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\DirectX\d3dx9shape.h">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\DirectX\d3dx9tex.h">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\DirectX\d3dx9xof.h">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\vmmdll\vmmdll.h">
+      <Filter>Resource Files\Librarys\vmmdll</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Files\Librarys\leechcore\leechcore.h">
+      <Filter>Resource Files\Librarys\leechcore</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache\Cache.h">
+      <Filter>Header Files\Cache</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Resource Files\Librarys\DirectX\d3dx9.lib">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </Library>
+    <Library Include="Resource Files\Librarys\vmmdll\vmm.lib">
+      <Filter>Resource Files\Librarys\vmmdll</Filter>
+    </Library>
+    <Library Include="Resource Files\Librarys\leechcore\leechcore.lib">
+      <Filter>Resource Files\Librarys\leechcore</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource Files\Librarys\DirectX\d3dx9math.inl">
+      <Filter>Resource Files\Librarys\DirectX</Filter>
+    </None>
+  </ItemGroup>
+</Project>
